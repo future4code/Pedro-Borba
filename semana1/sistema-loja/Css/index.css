@@ -1,0 +1,63 @@
+/* Parte Inicial*/
+*{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Barra preta*/
+.header-black{
+    background-color: black;
+    height: 45px;
+}
+
+.redes-sociais ul{
+    margin-left: 1034px;
+}
+
+.redes-sociais ul li a {
+    float: right;
+    line-height: 70px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Cor do body*/
+.red-body{
+background-color: #5e1010;
+}
+
+/* Meu menu*/
+.menu{
+    height: 84px;
+    background-color: #5e1010;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu ul{
+    list-style: none;
+    margin-left: 300px;
+    
+}
+
+.menu a{
+    float: left;
+    margin-top: 14px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #8b8b8b;
+}
+
+.menu a:hover{
+    background-color: rgb(190, 189, 189);
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
