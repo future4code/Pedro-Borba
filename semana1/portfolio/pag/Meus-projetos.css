@@ -1,0 +1,23 @@
+.imagem-para-seg-paralax{
+    background-image: url('../img/Uso-da-pag/o-que-utilizei.png') !important;
+}
+
+#img-projeto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#img-projeto img{
+    width: 300px;
+}
+
+#img-projeto a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #262626;
+}
+#img-projeto a:hover{
+    color: #015B67;
+}
