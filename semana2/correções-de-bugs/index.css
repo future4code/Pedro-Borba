@@ -70,6 +70,10 @@ div img {
     background-color: #2274a5;
     color: white;
 }
+#container-de-descricao p{
+    margin-top: 190px;
+    display: inline-block;
+}
 
 #container-de-descricao>ol {
     padding: 15px 0px;
