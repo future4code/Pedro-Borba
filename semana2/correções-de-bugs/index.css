@@ -73,6 +73,7 @@ div img {
 #container-de-descricao p{
     margin-top: 190px;
     display: inline-block;
+    width: 180px;
 }
 
 #container-de-descricao>ol {
