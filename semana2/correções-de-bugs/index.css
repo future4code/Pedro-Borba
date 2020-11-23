@@ -21,6 +21,14 @@ input {
     width: 500px;
 }
 
+#barra-de-pesquisa{
+    outline: 0;
+    border-top: 0;
+    border-bottom: 4;
+    border-left: 0;
+    border-right: 0;
+}
+
 button:focus {
     color: white;
 }
