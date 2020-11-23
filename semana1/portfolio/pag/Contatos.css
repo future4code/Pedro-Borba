@@ -1,0 +1,47 @@
+
+section{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #5c5b5b;
+    text-align: center;
+}
+section h3{
+    margin-bottom: 25px;
+}
+.email{
+    margin-top: 5px;
+    margin-left: 67px;
+    margin-bottom: 5px;
+}
+.bot input{
+    bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    background-color:#242424;
+    color: #8b8b8b;
+}
+
+.bot input:hover{
+    background-color: #015b67;
+}
+.redes-sociais{
+    margin-right: -60px !important;
+}
+
+#icon1 img{
+    width: 40px;
+}
+#icon2 img{
+    width: 38px;
+}
+#icon3 img{
+    width: 37px;
+}
+#icon4 img{
+    width: 150px;
+}

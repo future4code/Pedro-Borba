@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contatos.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="Biografia.css">
+    <title>Meus Projetos</title>
+</head>
+<body>
+
+    <header>
+        <nav class="menu" > <!-- apliquei um float e ele deixou o meu menu ao contrario, 
+            por isso ele ficou assim.  -->
+                <ul>
+                    <li><a href="./Contatos.html">Contatos</a></li> 
+                    
+                    <li><a href="./Meus-projetos.html">Meus Projetos</a></li>
+                    
+                    <li><a href="./Biografia.html">Biografia</a></li>
+                    
+                    <li><a href="../index.html">Início</a></li>
+                </ul>
+        </nav>
+            <div>
+                <a href="index.html">
+                <img id="logo-port" src="../img/Logo/Screenshot_20201120_125645.png"
+                 alt="logo">
+                </a>
+            </div>
+    </header>
+
+    <section>
+        <H3>Entre em contato comigo por e-mail no cadastro abaixo ou pelas midias sociais que estão abaixo.</H3>
+            <form action="/add" method="POST">
+
+                <div class="nome">
+                    Nome Completo: <input type="name" placeholder="Digite seu Nome Completo">
+                </div>
+
+                <div class="email">
+                    E-mail: <input type="email" name="E-mail"placeholder="Digite seu E-mail">
+                </div>
+                Descrição:
+                <div class="descricao"> 
+                     <textarea name="Descrição"cols="100" rows="15">
+                    
+                    </textarea>
+                </div>
+                        <br>
+                    <div class="bot">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>
+                            <li id="icon1"><a href="pedro_borba77@hotmail.com">
+                                <img src="/img/Uso-da-pag/58485698e0bb315b0f7675a8.png" alt="Ícone E-mail"></a></li>
+            
+                            <li id="icon2"><a href="https://www.linkedin.com/in/pedro-borba-317321183/">
+                                <img src="/img/Uso-da-pag/linkedin-round.png" alt="Ícone linkedin"></a></li>
+            
+                            <li id="icon3"><a href="https://www.facebook.com/P.Oliveira.32/">
+                                <img src="/img/Uso-da-pag/logo-facebook-preto.png" alt="Ícone facebook"></a></li>
+                            
+                            <li id="icon4"><a href="https://github.com/future4code/Pedro-Borba">
+                                <img src="/img/Uso-da-pag/githup.png" alt="Ícone GitHub"></a></li>
+                            </ul>
+                    </div>
+    </section>
+        
+        
+        <footer>
+            <div class="barra-bio barra-bio-cinza-escuro">
+                <div> 
+                    <p>2020 - Criado e Desnvolvido por Pedro Borba.</p>
+                </div>
+            </div>
+            
+        </footer> 
+</body>
+</html>

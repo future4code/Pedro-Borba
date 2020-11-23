@@ -1,0 +1,31 @@
+/* Tamanho para smartphone */
+
+@media only screen and (max-width: 480px){
+
+    .emailComFucao{
+        display: none;
+    }
+
+    .emailComFuncaoMobile{
+        margin-top: 20px;
+        height: 100px;
+        background-color: #aa2614;
+    }
+
+    .emailComFuncaoMobile input{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 0 !important;
+        font-size: 20px;
+        margin-top: 28px;  
+    }
+
+    .emailComFuncaoMobile button{
+        margin: 0px !important;
+        background: #f60;
+        padding: 6px !important;
+        margin-right: 5px !important;
+    }
+
+   
+}

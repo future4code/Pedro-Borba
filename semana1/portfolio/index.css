@@ -1,0 +1,137 @@
+/* zerando margens */
+*{
+    height: 0px auto;
+    width: 0px auto;
+}
+/* Meu menu */
+.menu{
+    width: 100%;
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu ul{
+    list-style: none;
+
+    margin-right: 20px;
+
+}
+
+.menu ul li{
+    float: right;
+}
+.menu a{
+    margin-top: 25px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: #6d6d6d;
+}
+
+
+.menu a:hover{
+    background-color: rgb(190, 189, 189);
+    color: rgb(71, 71, 71);
+}
+/* Logo */
+#logo-port{
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+/* Texto inicial */
+.texto-destaque p{
+    margin-top: 25px;
+    padding: 15px;
+    margin-top: 150px;
+    margin-right: 170px;
+    float: right;
+}
+/* Imagem minha */
+#imagem-pedro{
+    width: 550px;
+    float: left;
+    margin-left: 50px;
+    margin-top: px;
+}
+/* Botão para biografia */
+.botao{
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    float: left;
+    padding:10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 300px;
+
+}
+.botao-bio{
+    background:rgb(36, 36, 36);
+    color:#fff;
+    box-shadow:0 5px 0 #000000;
+}
+
+  .botao-bio:hover{
+    background:#015b67;
+    box-shadow:0 5px 0 #00383f;
+}
+
+.botao-bio:active{
+    position:relative;
+    top: 5px;
+    box-shadow:none;
+}
+/* Icones de Redes sociais */
+.redes-sociais ul{
+    margin-top: 110px;
+    margin-right: 306px;
+    float: right;
+    text-align: center;
+}
+.redes-sociais ul li a {
+    line-height: 5px;
+}
+.redes-sociais ul li {
+display: inline-block;
+margin-right: 10px;
+}
+/* Rodapé */
+footer .barra{
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+footer .barra p{
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .barra-cinza-escuro{
+    height: 48px;
+    border: none;
+    background-color: #11171d;
+    border-top: #242424 1px solid;
+    margin-top: 550px;
+}
+/* tamanho dos icones para redes sociais */
+#icon1 img{
+    width: 35px;
+}
+
+#icon2 img{
+    width: 38px;
+}
+
+#icon3 img{
+    width: 36px;
+}
