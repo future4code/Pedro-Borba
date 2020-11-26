@@ -1,0 +1,136 @@
+.nivel1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nivel2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nivel3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nivel4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nivel5 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nivel6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nivel7 {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nivel8 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nivel9 {
+    display: flex;
+    flex-direction: column;
+}
+
+.nivel10 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.nivel11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nivel12 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.nicel13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nivel14 {
+    display: flex;
+    order: 1;
+}
+
+.nivel15 {
+    display: flex;
+    order: -2;
+}
+
+.nivel16 {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+}
+
+.nivel17 {
+    display: flex;
+    align-items: flex-start;
+    order: 4;
+    align-self: flex-end;
+}
+
+.nivel18 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nivel19 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nivel20 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.nivel21 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.nivel22 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.nivel23 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+.nivel24 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-between;
+}

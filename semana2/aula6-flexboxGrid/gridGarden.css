@@ -1,0 +1,118 @@
+.nivel1 {
+    grid-column-start: 3;
+}
+
+.nivel2 {
+    grid-column-start: 5;
+}
+
+.nivel3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.nivel4 {
+    grid-column-start: 5;
+    grid-column-end: 2;
+}
+
+.nivel5 {
+    grid-column-start: 1;
+    grid-column-end: -2;
+}
+
+.nivel6 {
+    grid-column-start: -3;  
+}
+
+.nivel7 {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+.nivel8 {
+    grid-column-start: 1;
+    grid-column-end: span 7;
+}
+
+.nivel9 {
+    grid-column-start: span 3;
+}
+
+.nivel10 {
+    grid-column: 4/8;
+}
+
+.nivel11 {
+    grid-column: span 3/5;
+}
+
+.nivel12 {
+    grid-row-start: 3;
+}
+
+.nicel13 {
+    grid-row: 3/6;
+}
+
+.nivel14 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.nivel15 {
+    grid-column: 2/6;
+    grid-row: 1/6;
+}
+
+.nivel16 {
+    grid-area: -6/-5/4/8;
+}
+
+.nivel17 {
+    grid-area: 2/3/5/6;
+}
+
+.nivel18 {
+    order: 4;
+}
+
+.nivel19 {
+    order: -2;
+}
+
+.nivel20 {
+    grid-template-columns: 50%;
+}
+
+.nivel21 {
+    grid-template-columns: repeat(8, 12.5%);
+}
+
+.nivel22 {
+    grid-template-columns: repeat(3, 100px 3em 40%);
+}
+
+.nivel23 {
+    grid-template-columns: 1fr 5fr;
+}
+
+.nivel24 {
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+}
+
+.nivel25 {
+    grid-template-columns: 75px 3fr 2fr;
+}
+
+.nivel26 {
+    grid-template-rows: 20px 10px 10px 10px 1fr;
+}
+
+.nivel27 {
+    grid-template: 60% / 200px;
+}
+
+.nivel28 {
+    grid-template: 1fr 50px / 20% 80%;
+}
