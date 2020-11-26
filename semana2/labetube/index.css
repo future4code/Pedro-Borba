@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+header{
+    background-color: orange;
+    padding: 1em 1em;
+    display: flex;
+    align-items: center;
+}
+
+header h3{
+    margin-left: 1rem;
+}
+
+input{
+    padding: 1em 2em;
+    margin-left: 72.6em;
+}
+
+article {
+    margin: 4em 0em;
+    text-align: center;
+}
+
+.video{
+    display: inline-block;   
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+article div{ 
+    border: 1px #111111 solid ;
+
+}
+article div h4{
+    padding: 1rem 0rem;
+}
+
+div img{
+    width: 18rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(75, 75, 75)
+}
+
+
+
+footer{
+    background-color: grey;
+    padding: 1rem;
+    font-size: 15px;
+}
